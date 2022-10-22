@@ -1,0 +1,40 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch SpringBoot2Application",
+      "request": "launch",
+      "mainClass": "com.example.springboot2.SpringBoot2Application"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-SpringBoot1Application<spring-boot1>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.example.springboot1.SpringBoot1Application",
+      "projectName": "spring-boot1",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-Application<spring-boot2>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.example.springboot2.Application",
+      "projectName": "spring-boot2",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-Application<spring-boot1>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.example.springboot1.Application",
+      "projectName": "spring-boot1",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
